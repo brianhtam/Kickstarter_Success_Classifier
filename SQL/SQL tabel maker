@@ -1,0 +1,20 @@
+
+CREATE TABLE IF NOT EXISTS kickstarter(
+	    ID int DEFAULT NULL,
+	    name text DEFAULT NULL,
+	    category text DEFAULT NULL,
+	    main_category text DEFAULT NULL,
+	    currency text DEFAULT NULL,
+	    deadline text DEFAULT NULL, timestamp``
+	    goal float DEFAULT NULL,
+	    lauched timestamp DEFAULT NULL,
+        pledged float DEFAULT NULL,
+        state text DEFAULT NULL,
+        backers int DEFAULT NULL,
+        country text DEFAULT NULL,
+        usd_pledged float DEFAULT NULL,
+        usd_pledged_real float DEFAULT NULL,
+        usd_goal_real float DEFAULT NULL,
+	    PRIMARY KEY (ID)
+    );
+
